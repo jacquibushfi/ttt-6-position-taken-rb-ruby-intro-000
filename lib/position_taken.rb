@@ -3,4 +3,5 @@
 def position_taken?(board, move)
   if board[move] == " " || board[move] == ""
     return false
+  end
 end
