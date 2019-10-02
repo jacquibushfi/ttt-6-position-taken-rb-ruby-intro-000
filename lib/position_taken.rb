@@ -4,6 +4,6 @@ def position_taken?(board, move)
   if board[move] == " " || board[move] == "" || board[move] == nil
     return false
   elsif board[move] == "X" || board[move] == "O"
-  retur true
+  return true
   end
 end
